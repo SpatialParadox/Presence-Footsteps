@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "presencefootsteps",
+  "version": "${version}",
+  "name": "Presence Footsteps",
+  "description": "A sound mod that adds footsteps with varying sounds.",
+  "authors": [
+    "Hurricaaane (Ha3)",
+    "Sollace",
+    "Condolence"
+  ],
+  "contact": {
+    "sources": "https://github.com/SpatialParadox/Presence-Footsteps/issues",
+    "issues": "https://github.com/SpatialParadox/Presence-Footsteps/issues"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "eu.ha3.presencefootsteps.fabric.PresenceFootstepsFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.2.50"
+  },
+  "mixins": [
+    "presencefootsteps-common.mixins.json"
+  ]
+}

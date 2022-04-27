@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+issueTrackerURL = "https://github.com/SpatialParadox/Presence-Footsteps/issues"
+license = "MIT"
+
+[[mods]]
+modId = "presencefootsteps"
+version = "${version}"
+displayName = "Presence Footsteps"
+authors = "Hurricaaane (Ha3), Sollace and Condolence"
+description = '''
+A sound mod that adds footsteps with varying sounds.
+'''
+logoFile = "logo.png"
+
+[[dependencies.presencefootsteps]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.presencefootsteps]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.presencefootsteps]]
+modId = "architectury"
+mandatory = true
+versionRange = "[4.2.50,)"
+ordering = "AFTER"
+side = "BOTH"
