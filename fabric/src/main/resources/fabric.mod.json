@@ -10,7 +10,8 @@
     "Condolence"
   ],
   "contact": {
-    "sources": "https://github.com/SpatialParadox/Presence-Footsteps/issues",
+    "homepage": "https://github.com/SpatialParadox",
+    "sources": "https://github.com/SpatialParadox/Presence-Footsteps",
     "issues": "https://github.com/SpatialParadox/Presence-Footsteps/issues"
   },
   "license": "MIT",
