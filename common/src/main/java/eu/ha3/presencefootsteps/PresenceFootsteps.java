@@ -20,7 +20,7 @@ public class PresenceFootsteps {
 
     public static void clientLoad() {
         // Load config & sound engine
-        CONFIG = new ModConfig(Platform.getConfigFolder().resolve(MOD_ID).resolve("userconfig.json"));
+        CONFIG = new ModConfig(Platform.getConfigFolder().resolve(MOD_ID + ".json"));
         CONFIG.load();
 
         SOUND_ENGINE = new SoundEngine(CONFIG);
